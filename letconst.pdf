@@ -1,0 +1,20 @@
+
+ES2015 Global Constants
+
+const PI = 3.14;
+PI = 42; 
+
+
+
+Quiz:
+What is the difference between var and let?
+		One of the big differences is their scope. Let is block scoped so its values are contained within a code block while var is not and it can be redeclared at any place in the code.
+
+What is the difference between var and const?
+		Var is able to be reassigned and redeclared while const is unable to do either through the const keyword. You can access var outside of a code block while const is categorized as block scope and its value remains in a code block.  
+
+What is the difference between let and const?
+		The main difference between let and const is that let is able to be redeclared and its value changed while const can only have additions (in the case of an array) or the value can be used for a function but the value of const will not change. 
+
+What is hoisting?
+		Variables are accessible before they are defined in the code. They appear at the top of the scope they are defined in, even if they first appear later on due to the nature of being a variable, they are initialized first. This means they can be invoked before they are defined. 
